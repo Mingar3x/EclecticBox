@@ -34,7 +34,6 @@ class NeuralMatrix:
                 
                 new_token = key[0] + key[1]
                 final_token_vocabulary.append(new_token)
-
                 for i in reversed(range(len(working_token_list)-1)):
                     if working_token_list[i] == key[0] and working_token_list[i+1] == key[1]:
                         z = working_token_list.pop(i+1)
