@@ -1,0 +1,10 @@
+1. Load alice.txt
+    - Tokenize text (character or word level)
+    - something else idk?
+
+2. MODEL ARCHITECTURE..?
+    - idk gng we gotta learn about this one ngl
+
+3. TRAINING
+    - Sliding window text processing, assign massive 
+
