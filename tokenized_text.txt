@@ -208,8 +208,8 @@ th
 t
 r
 ou
-b
-le 
+bl
+e 
 of 
 get
 ting 
@@ -341,8 +341,7 @@ ed to
 her
  that 
 she 
-ough
-t
+ought
  to 
 have 
 w
@@ -442,9 +441,11 @@ ind
  that 
 she 
 had 
-ne
-ver 
-before 
+never
+ 
+be
+for
+e 
 se
 en
  a 
@@ -548,9 +549,7 @@ ge
 I
 n
  an
-ot
-her 
-m
+other m
 om
 ent 
 down
@@ -562,8 +561,8 @@ fter
  
 it
 , 
-ne
-ver 
+never
+ 
 on
 ce 
 con
@@ -648,7 +647,9 @@ ing
 her
 sel
 f 
-before 
+be
+for
+e 
 she 
 f
 ound 
@@ -1012,8 +1013,7 @@ e
 Wh
 y
 , 
-I 
-w
+I w
 ould
 n’t 
 s
@@ -1069,18 +1069,18 @@ d the
 f
 a
 ll 
-ne
-ver 
+never
+ 
 c
 om
 e to
- an 
+ an
+ 
 en
 d
 ?
  “
-I 
-w
+I w
 on
 der
  
@@ -1276,8 +1276,7 @@ ce
 but
  th
 en 
-I 
-w
+I w
 on
 der
  
@@ -1356,8 +1355,7 @@ beg
 an
  again
 . “
-I 
-w
+I w
 on
 der
  
@@ -1582,7 +1580,8 @@ it
  “
 And 
 what
- an 
+ an
+ 
 i
 g
 n
@@ -1610,8 +1609,8 @@ o
 it
 ’
 ll 
-ne
-ver 
+never
+ 
 do
  to
  as
@@ -1745,8 +1744,7 @@ my
 d
 ear
 ! 
-I 
-w
+I w
 ish
  
 you 
@@ -1811,8 +1809,7 @@ t
 b
 at
 s, 
-I 
-w
+I w
 on
 der
 ?” 
@@ -2096,13 +2093,13 @@ o
 ver
 head
 ; 
-before 
+be
+for
+e 
 her 
 was
  an
-ot
-her 
-long
+other long
  
 pa
 s
@@ -2515,7 +2512,9 @@ not
 not
 ic
 ed 
-before
+be
+for
+e
 , and 
 be
 h
@@ -2752,8 +2751,7 @@ h
 , 
 h
 ow 
-I 
-w
+I w
 ish
  
 I 
@@ -2892,9 +2890,7 @@ t
 f
 ind
  an
-ot
-her 
-k
+other k
 e
 y 
 on 
@@ -2958,7 +2954,9 @@ ly
 was 
 not 
 here 
-before
+be
+for
+e
 ,” said 
 Alice
 ,
@@ -3136,9 +3134,7 @@ ea
 st
 s
  and 
-ot
-her 
-un
+other un
 p
 lea
 s
@@ -3249,8 +3245,8 @@ s
  and 
 she 
 had 
-ne
-ver 
+never
+ 
 for
 g
 ot
@@ -3497,8 +3493,7 @@ ed
 up
  at the 
 th
-ough
-t
+ought
  that 
 she 
 was 
@@ -3614,8 +3609,7 @@ c
 and
 le
 . 
-I 
-w
+I w
 on
 der
  
@@ -4650,8 +4644,7 @@ little
 fe
 et
 , 
-I 
-w
+I w
 on
 der
  
@@ -4714,8 +4707,8 @@ off
  t
 r
 ou
-b
-le 
+bl
+e 
 m
 y
 self
@@ -4842,8 +4835,7 @@ er
 ,”
  she 
 th
-ough
-t
+ought
 ; “
 and 
 h
@@ -5048,8 +5040,7 @@ ry
 . “
 You
  
-ough
-t
+ought
  to 
 b
 e a
@@ -5299,10 +5290,12 @@ O
 h
 !
  the 
-Duchess
+Duch
+ess
 ,
  the 
-Duchess
+Duch
+ess
 ! 
 O
 h
@@ -5525,8 +5518,7 @@ us
 u
 al
 . 
-I 
-w
+I w
 on
 der
  
@@ -5888,8 +5880,8 @@ I
  s
 ha
 ll 
-ne
-ver 
+never
+ 
 get
  to
  tw
@@ -6575,8 +6567,7 @@ hat
 ?”
  she 
 th
-ough
-t
+ought
 . “
 I 
 must 
@@ -6831,7 +6822,9 @@ ab
 l
 e a
 s 
-before, “
+be
+for
+e, “
 and
  thing
 s
@@ -6855,8 +6848,8 @@ d
 , “
 for 
 I 
-ne
-ver 
+never
+ 
 was
  so
  s
@@ -6864,7 +6857,9 @@ ma
 ll
  as
  this 
-before, 
+be
+for
+e, 
 never
 ! 
 And 
@@ -6905,9 +6900,7 @@ ed
 , and 
 in
  an
-ot
-her 
-m
+other m
 om
 ent
 , s
@@ -7145,8 +7138,7 @@ t
 h
 igh
 . “
-I 
-w
+I w
 ish
  
 I 
@@ -7488,8 +7480,7 @@ se
 (
 Alic
 e th
-ough
-t
+ought
  this 
 must 
 b
@@ -7509,8 +7500,8 @@ se
 :
  she 
 had 
-ne
-ver 
+never
+ 
 d
 one 
 s
@@ -7518,7 +7509,9 @@ uch
  a
  th
 ing 
-before, 
+be
+for
+e, 
 but 
 she 
 rem
@@ -7926,8 +7919,7 @@ And
 y
 e
 t 
-I 
-w
+I w
 ish
  
 I 
@@ -8192,8 +8184,7 @@ l
 A
 s 
 if 
-I 
-w
+I w
 ould
  t
 al
@@ -8255,8 +8246,7 @@ m
 e a
 gain
 !” “
-I 
-w
+I w
 on’t 
 ind
 e
@@ -8687,8 +8677,7 @@ ion
 , 
 Alic
 e th
-ough
-t
+ought
 )
 , and 
 it 
@@ -8813,7 +8802,8 @@ L
 or
 y
  and
- an 
+ an
+ 
 E
 a
 g
@@ -8824,9 +8814,7 @@ se
 ver
 al
  
-ot
-her 
-c
+other c
 ur
 i
 ou
@@ -9320,7 +9308,8 @@ M
 ou
 se 
 with
- an 
+ an
+ 
 im
 p
 or
@@ -10053,9 +10042,7 @@ le
  s
 ome 
 of the 
-ot
-her 
-b
+other b
 ir
 d
 s
@@ -10082,7 +10069,8 @@ o
 d
 o 
 in
- an 
+ an
+ 
 off
 en
 d
@@ -10169,8 +10157,7 @@ e
 bo
 d
 y 
-ough
-t
+ought
  to s
 p
 ea
@@ -10247,8 +10234,7 @@ ter
 d
 ay
 , 
-I 
-w
+I w
 ill
  t
 ell 
@@ -10420,7 +10406,8 @@ ing
 ha
 l
 f
- an 
+ an
+ 
 h
 our
  
@@ -10987,8 +10974,7 @@ ed
 . 
 Alic
 e th
-ough
-t
+ought
  the 
 wh
 ol
@@ -11401,8 +11387,7 @@ go
 la
 w
 : 
-I 
-w
+I w
 ill 
 p
 ro
@@ -11902,7 +11887,8 @@ igh
 t
 ;
  and
- an 
+ an
+ 
 ol
 d 
 C
@@ -11997,14 +11983,14 @@ i
 en
 ce 
 of
- an 
+ an
+ 
 o
 y
 st
 er
 !” “
-I 
-w
+I w
 ish
  
 I 
@@ -12160,8 +12146,7 @@ And
 o
 h
 , 
-I 
-w
+I w
 ish
  
 you 
@@ -12392,8 +12377,7 @@ t
 l
 on
 e. “
-I 
-w
+I w
 ish
  
 I 
@@ -12472,8 +12456,7 @@ in
 a
 h
 ! 
-I 
-w
+I w
 on
 der
  
@@ -12687,10 +12670,12 @@ it
 self
  “
 The 
-Duchess
+Duch
+ess
 ! 
 The 
-Duchess
+Duch
+ess
 ! 
 O
 h
@@ -12759,8 +12744,7 @@ pp
 ed
  them
 , 
-I 
-w
+I w
 on
 der
 ?” 
@@ -13222,7 +13206,9 @@ of the
 h
 ou
 se 
-before 
+be
+for
+e 
 she 
 had 
 f
@@ -13722,7 +13708,9 @@ ec
 t
 ed
 : 
-before 
+be
+for
+e 
 she 
 had 
 d
@@ -13894,9 +13882,7 @@ or
 : 
 in
  an
-ot
-her 
-min
+other min
 ut
 e t
 here 
@@ -14276,8 +14262,8 @@ d
 of
  th
 ing 
-ne
-ver 
+never
+ 
 ha
 pp
 en
@@ -14300,8 +14286,7 @@ e
 ! 
 T
 here 
-ough
-t
+ought
  to 
 b
 e a 
@@ -14318,8 +14303,7 @@ e,
  that
  ther
 e 
-ough
-t
+ought
 ! 
 And 
 wh
@@ -14395,8 +14379,8 @@ s
 ha
 ll 
 I 
-ne
-ver 
+never
+ 
 get
  an
 y 
@@ -14946,8 +14930,8 @@ ust
 po
 ss
 i
-b
-le 
+bl
+e 
 it 
 had 
 f
@@ -15018,11 +15002,13 @@ voic
 e 
 she 
 had 
-ne
-ver 
+never
+ 
 hear
 d 
-before, “
+be
+for
+e, “
 S
 ur
 e th
@@ -15395,8 +15381,7 @@ be
  though
 t 
 Alice. “
-I 
-w
+I w
 on
 der
  
@@ -15530,9 +15515,7 @@ W
 here
 ’s
  the 
-ot
-her 
-la
+other la
 d
 der
 ?
@@ -15765,8 +15748,7 @@ it
 —
 T
 hat 
-I 
-w
+I w
 on
 ’t
 ,
@@ -15857,8 +15839,7 @@ on
 B
 ill
 ! 
-I 
-w
+I w
 ould
 n’t 
 be 
@@ -16084,9 +16065,7 @@ ce
 , and
  then
  an
-ot
-her 
-con
+other con
 f
 us
 i
@@ -16349,13 +16328,11 @@ tly
 , and 
 Alic
 e th
-ough
-t
+ought
  to 
 herself
 , “
-I 
-w
+I w
 on
 der
  
@@ -16550,9 +16527,7 @@ u
 c
 ed
  an
-ot
-her 
-d
+other d
 ea
 d 
 s
@@ -16630,8 +16605,7 @@ es
 ,”
  she 
 th
-ough
-t
+ought
 , “
 it
 ’s
@@ -16972,7 +16946,8 @@ It
 s
 ound
 ed
- an 
+ an
+ 
 ex
 c
 ell
@@ -17191,8 +17166,7 @@ e
 at
  the 
 th
-ough
-t
+ought
  that 
 it 
 m
@@ -17386,9 +17360,7 @@ y
 mad
 e 
 an
-ot
-her 
-r
+other r
 us
 h
  at the 
@@ -17825,8 +17797,7 @@ up
 po
 se 
 I 
-ough
-t
+ought
  to 
 ea
 t 
@@ -18180,9 +18151,7 @@ ed
  at 
 ea
 ch 
-ot
-her 
-for
+other for
  s
 om
 e t
@@ -18250,7 +18219,8 @@ T
 his 
 was 
 not
- an 
+ an
+ 
 en
 cour
 a
@@ -18660,8 +18630,7 @@ i
 ch 
 b
 r
-ough
-t
+ought
  them
  
 bac
@@ -18733,8 +18702,7 @@ I
 k
 , 
 you 
-ough
-t
+ought
  to
  t
 ell 
@@ -18761,9 +18729,7 @@ er
 e 
 was
  an
-ot
-her 
-p
+other p
 u
 z
 z
@@ -19367,7 +19333,9 @@ m
 ent
 ion
 ed 
-before, 
+be
+for
+e, 
 And 
 have 
 gr
@@ -19688,7 +19656,8 @@ al
 an
 c
 ed
- an 
+ an
+ 
 e
 el
  
@@ -19980,8 +19949,8 @@ ing
 :
  she 
 had 
-ne
-ver 
+never
+ 
 be
 en
  s
@@ -20000,7 +19969,9 @@ her
 li
 f
 e 
-before
+be
+for
+e
 , and 
 she 
 f
@@ -20167,8 +20138,7 @@ t
 of 
 herself
 , “
-I 
-w
+I w
 ish
  the 
 c
@@ -20437,9 +20407,7 @@ d
  and 
 in
  an
-ot
-her 
-m
+other m
 om
 ent 
 it 
@@ -20717,9 +20685,7 @@ t
 s
 ome 
 of the 
-ot
-her 
-b
+other b
 it
 . 
 H
@@ -20828,9 +20794,7 @@ lar
 m 
 in
  an
-ot
-her 
-m
+other m
 om
 ent
 , wh
@@ -20865,7 +20829,8 @@ ed
 down
 , 
 was
- an 
+ an
+ 
 im
 m
 en
@@ -21449,8 +21414,7 @@ ed
 but 
 she 
 th
-ough
-t
+ought
  ther
 e 
 was 
@@ -21489,8 +21453,8 @@ n
  t
 r
 ou
-b
-le 
+bl
+e 
 en
 ough
  
@@ -21848,8 +21812,8 @@ y
  tim
 e, 
 but 
-ne
-ver 
+never
+ 
 one 
 with
  s
@@ -21909,7 +21873,8 @@ never
 a
 st
 ed
- an 
+ an
+ 
 e
 g
 g
@@ -22571,8 +22536,7 @@ be
 d
 on
 e, 
-I 
-w
+I w
 on
 der
 ?” 
@@ -22591,7 +22555,8 @@ en
 ly 
 up
 on
- an 
+ an
+ 
 op
 en 
 pla
@@ -22631,8 +22596,8 @@ e, “
 it
 ’
 ll 
-ne
-ver 
+never
+ 
 do
  to 
 c
@@ -22881,9 +22846,7 @@ en
 ed 
 by
  an
-ot
-her 
-f
+other f
 oo
 t
 m
@@ -23052,7 +23015,8 @@ e, “
 F
 or
  the 
-Duchess
+Duch
+ess
 . 
 A
 n
@@ -23135,7 +23099,8 @@ i
 on 
 for
  the 
-Duchess
+Duch
+ess
  to 
 pla
 y 
@@ -23235,9 +23200,7 @@ g
 on
 e,
  and the 
-ot
-her 
-was
+other was
  s
 it
 ting 
@@ -24265,7 +24228,8 @@ E
 v
 en
  the 
-Duchess
+Duch
+ess
  s
 ne
 e
@@ -24440,7 +24404,8 @@ e
 c
 at
 ,” said the 
-Duchess
+Duch
+ess
 , “
 and
  that
@@ -24488,9 +24453,7 @@ w
  
 in
  an
-ot
-her 
-m
+other m
 om
 ent
  that 
@@ -24569,7 +24532,8 @@ ey
  all 
 can
 ,” said the 
-Duchess
+Duch
+ess
 ; “
 and 
 m
@@ -24627,7 +24591,8 @@ know
  
 much
 ,” said the 
-Duchess
+Duch
+ess
 ; “
 and
  that
@@ -24741,7 +24706,8 @@ her
 rea
 ch
  at the 
-Duchess
+Duch
+ess
  and the 
 b
 ab
@@ -24788,7 +24754,8 @@ d
 ish
 es
 . The 
-Duchess
+Duch
+ess
  t
 ook 
 no 
@@ -24910,7 +24877,8 @@ no
 se
 !”
  as
- an 
+ an
+ 
 un
 us
 u
@@ -24965,7 +24933,8 @@ us
 in
 ess
 ,” the 
-Duchess
+Duch
+ess
  sai
 d 
 in a 
@@ -25030,7 +24999,8 @@ la
 d
  to 
 get
- an 
+ an
+ 
 op
 p
 or
@@ -25114,7 +25084,8 @@ of
 x
 es
 ,” said the 
-Duchess
+Duch
+ess
 , “
 ch
 op
@@ -25226,16 +25197,15 @@ h
 d
 on’t 
 b
-ot
-her 
-m
+other m
 e
 ,” said the 
-Duchess
+Duch
+ess
 ; “
 I 
-ne
-ver 
+never
+ 
 c
 ould
  ab
@@ -25399,7 +25369,8 @@ ow
 Wh
 il
 e the 
-Duchess
+Duch
+ess
  s
 an
 g
@@ -25552,7 +25523,8 @@ lik
 e
 !”
  the 
-Duchess
+Duch
+ess
  sai
 d
  to 
@@ -26161,8 +26133,7 @@ ing
 ,”
  she 
 th
-ough
-t
+ought
 , and 
 look
 ed 
@@ -26538,9 +26509,7 @@ k
 ing 
 o
 ver 
-ot
-her 
-ch
+other ch
 il
 d
 r
@@ -26664,8 +26633,7 @@ ur
 ed
 , she 
 th
-ough
-t
+ought
 :
  st
 ill 
@@ -26695,8 +26663,7 @@ el
 t
  that 
 it 
-ough
-t
+ought
  to 
 b
 e t
@@ -26801,8 +26768,7 @@ i
 ch 
 way 
 I 
-ough
-t
+ought
  to 
 g
 o 
@@ -26890,7 +26856,8 @@ a
 dd
 ed
  as
- an 
+ an
+ 
 ex
 p
 l
@@ -26944,9 +26911,7 @@ t
 ri
 ed
  an
-ot
-her 
-qu
+other qu
 est
 ion
 . “W
@@ -27009,9 +26974,7 @@ wa
 v
 ing
  the 
-ot
-her 
-pa
+other pa
 w
 , “
 li
@@ -27592,7 +27555,9 @@ en
 hat
 ter
 s 
-before
+be
+for
+e
 ,”
  she 
 said
@@ -27714,8 +27679,7 @@ ed
 Alice
 ; “
 and 
-I 
-w
+I w
 ish
  
 you 
@@ -27885,7 +27849,9 @@ f
 ar
 t
 her 
-before 
+be
+for
+e 
 she 
 ca
 me 
@@ -28371,7 +28337,8 @@ e
 sai
 d 
 in
- an 
+ an
+ 
 en
 cour
 a
@@ -29894,8 +29861,8 @@ e
 sa
 y 
 you 
-ne
-ver 
+never
+ 
 ev
 en
  s
@@ -30149,8 +30116,7 @@ ly
 ,” said 
 Alic
 e th
-ough
-t
+ought
 f
 u
 ll
@@ -30263,7 +30229,9 @@ ch
 —
 j
 ust 
-before 
+be
+for
+e 
 he 
 went 
 mad
@@ -30336,8 +30304,7 @@ at
 ! 
 H
 ow 
-I 
-w
+I w
 on
 der
  
@@ -30972,8 +30939,8 @@ se
 , 
 fe
 e
-b
-le 
+bl
+e 
 voic
 e
 : “
@@ -31045,7 +31012,9 @@ ep
  a
 ga
 in 
-before 
+be
+for
+e 
 it
 ’s 
 d
@@ -31250,7 +31219,8 @@ f
 what 
 s
 uch
- an 
+ an
+ 
 ex
 t
 ra
@@ -31345,7 +31315,8 @@ rep
 li
 ed 
 in
- an 
+ an
+ 
 off
 en
 d
@@ -31643,8 +31614,7 @@ um
 b
 ly
 ; “
-I 
-w
+I w
 on’t 
 in
 ter
@@ -31902,7 +31872,9 @@ se
 off
  th
 an 
-before,
+be
+for
+e,
  as
  the 
 Mar
@@ -32191,14 +32163,16 @@ beg
 in
 s 
 with
- an 
+ an
+ 
 M
 —
 ” “
 Wh
 y 
 with
- an 
+ an
+ 
 M
 ?”
  sai
@@ -32284,7 +32258,8 @@ beg
 in
 s 
 with
- an 
+ an
+ 
 M
 , s
 uch
@@ -32531,8 +32506,8 @@ rat
 e 
 I’
 ll 
-ne
-ver 
+never
+ 
 go
  ther
 e a
@@ -32622,8 +32597,7 @@ ous
 !”
  she 
 th
-ough
-t
+ought
 . “
 B
 ut 
@@ -32949,8 +32923,7 @@ ed
 . 
 Alic
 e th
-ough
-t
+ought
  this
  a 
 very 
@@ -33399,8 +33372,7 @@ s
 ,
  this 
 here 
-ough
-t
+ought
  to 
 have 
 be
@@ -35178,7 +35150,8 @@ w
 here
 ’s
  the 
-Duchess
+Duch
+ess
 ?” “
 H
 us
@@ -35929,9 +35902,7 @@ k
 ing 
 off
  to 
-ot
-her 
-p
+other p
 ar
 t
 s 
@@ -36389,8 +36360,7 @@ it
 ,”
  she 
 th
-ough
-t
+ought
 , “
 t
 ill 
@@ -36412,9 +36382,7 @@ of
 I
 n
  an
-ot
-her 
-min
+other min
 ut
 e the 
 wh
@@ -36670,9 +36638,7 @@ king
  ab
 out
  at the 
-ot
-her 
-en
+other en
 d 
 of the 
 gr
@@ -37056,8 +37022,7 @@ y
 d
 ear
 ! 
-I 
-w
+I w
 ish
  
 you 
@@ -37271,8 +37236,8 @@ us
 ion
  that 
 she 
-ne
-ver 
+never
+ 
 k
 ne
 w
@@ -37324,9 +37289,7 @@ igh
 t 
 with
  an
-ot
-her 
-h
+other h
 ed
 ge
 h
@@ -37805,8 +37768,8 @@ om
  that 
 he 
 had 
-ne
-ver 
+never
+ 
 had
  to 
 do
@@ -37815,7 +37778,9 @@ uch
  a
  th
 ing 
-before
+be
+for
+e
 , and 
 he 
 was
@@ -37978,7 +37943,8 @@ be
 long
 s
  to the 
-Duchess
+Duch
+ess
 : 
 you
 ’
@@ -38071,7 +38037,8 @@ bac
 k 
 with
  the 
-Duchess
+Duch
+ess
 , 
 it 
 had 
@@ -38176,7 +38143,8 @@ ol
 d
  thing
 !” said the 
-Duchess
+Duch
+ess
 ,
  as she 
 t
@@ -38279,7 +38247,8 @@ en
 I’
 m
  a 
-Duchess
+Duch
+ess
 ,”
  she 
 said
@@ -38301,8 +38270,7 @@ e th
 ough
 )
 , “
-I 
-w
+I w
 on’t 
 have 
 an
@@ -38617,7 +38585,8 @@ ch
 il
 d
 !” said the 
-Duchess
+Duch
+ess
 . “
 E
 ver
@@ -38745,7 +38714,8 @@ der
 , and 
 it 
 was
- an 
+ an
+ 
 un
 c
 om
@@ -38831,7 +38801,8 @@ T
 is
  so
 ,” said the 
-Duchess
+Duch
+ess
 : “
 an
 d the 
@@ -38929,7 +38900,8 @@ m
 e th
 ing
 ,” said the 
-Duchess
+Duch
+ess
 , 
 di
 g
@@ -39017,8 +38989,7 @@ s
 !” 
 Alic
 e th
-ough
-t
+ought
  to 
 herself
 . “
@@ -39051,7 +39022,8 @@ wa
 is
 t
 ,” the 
-Duchess
+Duch
+ess
  sai
 d
  a
@@ -39152,7 +39124,8 @@ y
 r
 ue
 ,” said the 
-Duchess
+Duch
+ess
 : “
 f
 la
@@ -39234,7 +39207,8 @@ us
 u
 al
 ,” said the 
-Duchess
+Duch
+ess
 : “
 what
  a 
@@ -39273,7 +39247,8 @@ se
 it 
 is
 ,” said the 
-Duchess
+Duch
+ess
 , wh
 o
  se
@@ -39407,7 +39382,8 @@ e
 with 
 you
 ,” said the 
-Duchess
+Duch
+ess
 ; “
 an
 d the 
@@ -39613,8 +39589,8 @@ on
  t
 r
 ou
-b
-le 
+bl
+e 
 your
 self
  to s
@@ -39647,7 +39623,8 @@ ou
 b
 le
 !” said the 
-Duchess
+Duch
+ess
 . “
 I 
 ma
@@ -39734,16 +39711,15 @@ king
  again
 ?”
  the 
-Duchess
+Duch
+ess
  as
 k
 ed
 , 
 with
  an
-ot
-her 
-di
+other di
 g
  
 of 
@@ -39798,7 +39774,8 @@ much
 righ
 t
 ,” said the 
-Duchess
+Duch
+ess
 , “
 a
 s 
@@ -39830,7 +39807,8 @@ pr
 is
 e,
  the 
-Duchess
+Duch
+ess
 ’s 
 voic
 e 
@@ -40018,7 +39996,8 @@ oic
 e
 !” 
 The 
-Duchess
+Duch
+ess
  t
 ook 
 her 
@@ -40092,9 +40071,7 @@ et
 gr
 ound
 . The 
-ot
-her 
-g
+other g
 u
 est
 s 
@@ -40200,8 +40177,8 @@ ing
  the 
 Que
 en 
-ne
-ver 
+never
+ 
 le
 f
 t 
@@ -40214,9 +40191,7 @@ ll
 ing 
 with
  the 
-ot
-her 
-pla
+other pla
 y
 er
 s
@@ -40301,7 +40276,8 @@ of
 ha
 l
 f
- an 
+ an
+ 
 h
 our
  
@@ -40836,8 +40812,8 @@ y
  that
 :
  they 
-ne
-ver 
+never
+ 
 ex
 ec
 ut
@@ -40887,8 +40863,8 @@ fter
 it
 : “
 I 
-ne
-ver 
+never
+ 
 was
  s
 o 
@@ -40914,7 +40890,9 @@ one
 f
 ar
  
-before th
+be
+for
+e th
 ey
  s
 a
@@ -41024,7 +41002,9 @@ wor
 d
 s
  as 
-before, “
+be
+for
+e, “
 I
 t
 ’s
@@ -41196,8 +41176,7 @@ es
 . 
 Alic
 e th
-ough
-t
+ought
  to 
 herself
 , “
@@ -41292,7 +41271,8 @@ en
 on
 ly 
 by
- an 
+ an
+ 
 oc
 ca
 s
@@ -41453,7 +41433,8 @@ ma
 st
 er 
 was
- an 
+ an
+ 
 ol
 d 
 Tur
@@ -41547,8 +41528,7 @@ ll
 !” “
 You
  
-ough
-t
+ought
  to 
 b
 e a
@@ -41725,7 +41705,9 @@ dd
 ed the 
 Gryphon
 , 
-before 
+be
+for
+e 
 Alice 
 could 
 s
@@ -42097,8 +42079,8 @@ is
 ion
 .” “
 I 
-ne
-ver 
+never
+ 
 hear
 d 
 of 
@@ -42396,7 +42378,8 @@ ma
 st
 er 
 was
- an 
+ an
+ 
 ol
 d 
 c
@@ -42491,8 +42474,8 @@ n
 d the 
 Gryph
 on 
-ne
-ver 
+never
+ 
 l
 ear
 n
@@ -42509,8 +42492,7 @@ e
 ,” said the 
 Gryphon
 : “
-I 
-w
+I w
 ent
  to the 
 C
@@ -42527,7 +42509,8 @@ er
 H
 e 
 was
- an 
+ an
+ 
 ol
 d 
 c
@@ -42538,8 +42521,8 @@ he
 was
 .” “
 I 
-ne
-ver 
+never
+ 
 w
 ent
  to 
@@ -42774,7 +42757,9 @@ it
 o
 ver
  a little 
-before 
+be
+for
+e 
 she 
 mad
 e 
@@ -43095,8 +43080,8 @@ p
 s 
 you 
 were 
-ne
-ver 
+never
+ 
 ev
 en 
 int
@@ -44699,8 +44684,8 @@ est
 ing
 . 
 I 
-ne
-ver 
+never
+ 
 k
 ne
 w
@@ -44713,7 +44698,9 @@ out
 wh
 it
 ing 
-before
+be
+for
+e
 .” “
 I 
 can
@@ -44868,7 +44855,9 @@ id
 er
 ed
  a little 
-before 
+be
+for
+e 
 she 
 ga
 ve 
@@ -45021,8 +45010,7 @@ wh
 o
 s
 e th
-ough
-t
+ought
 s 
 were 
 st
@@ -45223,7 +45211,8 @@ rep
 li
 ed 
 in
- an 
+ an
+ 
 off
 en
 d
@@ -45356,7 +45345,8 @@ st
 Gryph
 on 
 in
- an 
+ an
+ 
 im
 p
 at
@@ -46066,12 +46056,14 @@ Gryphon
 ell
 , 
 I 
-ne
-ver 
+never
+ 
 hear
 d 
 it 
-before
+be
+for
+e
 ,” said the 
 Mock Tur
 tl
@@ -46651,9 +46643,7 @@ w
 e t
 ry
  an
-ot
-her 
-f
+other f
 i
 g
 ur
@@ -46992,9 +46982,7 @@ e,
 or
  an
 y 
-ot
-her 
-d
+other d
 ish
 ?
  
@@ -47441,7 +47429,9 @@ was
  st
 and
 ing 
-before th
+be
+for
+e th
 em
 , 
 in 
@@ -47565,8 +47555,7 @@ look
  them
 —
 “
-I 
-w
+I w
 ish
  the
 y
@@ -47584,8 +47573,7 @@ e
 ,”
  she 
 th
-ough
-t
+ought
 , “
 and 
 ha
@@ -47641,8 +47629,8 @@ im
 e
 . Alice 
 had 
-ne
-ver 
+never
+ 
 be
 en 
 in a 
@@ -47653,7 +47641,9 @@ j
 ust
 ic
 e 
-before, 
+be
+for
+e, 
 but 
 she 
 had 
@@ -47930,8 +47920,7 @@ it
 for
  she 
 th
-ough
-t
+ought
 , and 
 righ
 tly
@@ -48045,7 +48034,9 @@ down
 y
 et
 , 
-before the 
+be
+for
+e the 
 t
 ri
 al
@@ -48089,7 +48080,9 @@ for
 get
  them
  
-before the 
+be
+for
+e the 
 en
 d 
 of the 
@@ -48298,7 +48291,9 @@ es
 ll 
 be 
 in 
-before the 
+be
+for
+e the 
 t
 ri
 al
@@ -48365,7 +48360,8 @@ y
 on 
 f
 ound
- an 
+ an
+ 
 op
 p
 or
@@ -48670,7 +48666,9 @@ l
  to 
 c
 ome 
-before t
+be
+for
+e t
 hat
 !” “
 C
@@ -48817,8 +48815,7 @@ for
 .” “
 You
  
-ough
-t
+ought
  to 
 have 
 f
@@ -49064,7 +49061,8 @@ Hatter
 dd
 ed
  as
- an 
+ an
+ 
 ex
 p
 l
@@ -49309,8 +49307,7 @@ er
 , and 
 she 
 th
-ough
-t
+ought
  at 
 fir
 st 
@@ -49359,8 +49356,7 @@ m
 for 
 her
 . “
-I 
-w
+I w
 ish
  
 you 
@@ -49542,8 +49538,8 @@ e the
 Que
 en 
 had 
-ne
-ver 
+never
+ 
 le
 f
 t 
@@ -50196,8 +50192,7 @@ d
 wor
 d
 , 
-I 
-w
+I w
 ill 
 j
 ust 
@@ -50364,8 +50359,8 @@ t
 ,”
  and 
 I 
-ne
-ver 
+never
+ 
 un
 der
 st
@@ -50445,9 +50440,7 @@ ed
 H
 er
 e the 
-ot
-her 
-g
+other g
 u
 in
 ea
@@ -50620,7 +50613,9 @@ of
  s
 igh
 t 
-before the 
+be
+for
+e the 
 off
 ic
 er 
@@ -50652,7 +50647,8 @@ es
 s 
 was
  the 
-Duchess
+Duch
+ess
 ’s 
 c
 ook
@@ -50687,7 +50683,9 @@ was
 , 
 ev
 en 
-before 
+be
+for
+e 
 she 
 go
 t 
@@ -51049,7 +51047,8 @@ a
 dd
 ed 
 in
- an 
+ an
+ 
 un
 der
 t
@@ -51386,7 +51385,9 @@ w
 e
 e
 k 
-before. “
+be
+for
+e. “
 O
 h
 , 
@@ -52053,7 +52054,8 @@ him
 sel
 f 
 in
- an 
+ an
+ 
 un
 der
 t
@@ -52177,8 +52179,7 @@ it
 ,”
  she 
 th
-ough
-t
+ought
  to 
 herself
 . 
@@ -52382,8 +52383,7 @@ King
 Th
 en 
 it 
-ough
-t
+ought
  to 
 be 
 N
@@ -52722,9 +52722,7 @@ ing
 k
 ed
  an
-ot
-her 
-of the 
+other of the 
 j
 ur
 y
@@ -53265,7 +53263,9 @@ ough
 were 
 min
 e 
-before
+be
+for
+e
 . 
 I
 f 
@@ -53977,7 +53977,9 @@ en
  again
 —
 ‘
-before 
+be
+for
+e 
 she 
 had
  this 
@@ -53987,8 +53989,8 @@ it
 ’
  
 you 
-ne
-ver 
+never
+ 
 had 
 f
 it
@@ -54021,7 +54023,8 @@ ly
 r
 ow
 ing
- an 
+ an
+ 
 in
 k
 st
@@ -54178,7 +54181,8 @@ King
 dd
 ed 
 in
- an 
+ an
+ 
 off
 en
 d
@@ -54312,8 +54316,7 @@ ur
 p
 le
 . “
-I 
-w
+I w
 on
 ’t
 !” sai
@@ -55148,7 +55151,8 @@ e
 z
 ing 
 on the 
-Duchess
+Duch
+ess
 ’s 
 k
 ne
@@ -55423,9 +55427,7 @@ Gryphon
 , and
  all
  the 
-ot
-her 
-qu
+other qu
 e
 er 
 no
@@ -55596,9 +55598,7 @@ at
 her
  about 
 her 
-ot
-her 
-little 
+other little 
 ch
 il
 d

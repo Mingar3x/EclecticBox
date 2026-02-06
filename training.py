@@ -1,5 +1,6 @@
 #import numpy as np
 import random
+import json
 class Trainer:
     
     def create_token_vocabulary(self, input_text, target_vocabulary_size):
@@ -49,7 +50,7 @@ class Trainer:
         t = open(file, encoding="utf-8") #input
         y, x = self.create_token_vocabulary(t.read().replace('\ufeff', ''), count)
         t.close()
-        print(x)
+        #print(x)
 
         #clears the token vocabulary file
         r = open("tokens.txt", "w", encoding="utf-8")
@@ -76,10 +77,40 @@ class Trainer:
                 r.write("\n")
         r.close()
 
-    def embed_tokens(self):
-        return
+    def embed_tokens(self, tokenized_text, tokens):
+        context_window = 20
+        #writing files to arrays for easy operations
+        r = open(tokenized_text, encoding="utf-8")
+        t = open(tokens, encoding="utf-8")
+        text_list, token_list = [], []
+        for i in r:
+            text_list.append(i.replace('\n', ''))
+        for i in t:
+            token_list.append(i.replace('\n', ''))
+        r.close()
+        t.close()
+        #embedding each token to a vector based off the previous tokens in text_list
+        embedded_token_vectors = {3:("hey",2,3), 4:(4,5,6), 5:(7,8,9)}
+        preceding_token_counts = {}
+        for i in range(len(text_list)-1):
+            token = text_list[i]
+            previous_tokens = []
+            for j in range(context_window):
+                if i-j>=0 and not i-j==i:
+                    previous_tokens.append(text_list[i-j])
+            if token not in preceding_token_counts:
+                preceding_token_counts[token] = []
+            preceding_token_counts[token].append(previous_tokens)
+            
+
+        #writing the embedding table to a json file
+        with open('embedded_token_vectors.json', 'w', encoding="utf-8") as f:
+            json.dump(preceding_token_counts, f, ensure_ascii=False, indent=4)
+
+        
 
 #"main" code
 trainer = Trainer()
+trainer.embed_tokens("tokenized_text.txt", "tokens.txt")
 #trainer.tokenize("alice.txt", 500)
 
