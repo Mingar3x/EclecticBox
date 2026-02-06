@@ -1,7 +1,8 @@
 #import numpy as np
 import random
-class NeuralMatrix:
-    def create_token_vocabulary(input_text, target_vocabulary_size):
+class Trainer:
+    
+    def create_token_vocabulary(self, input_text, target_vocabulary_size):
         final_token_vocabulary = []
         working_token_list = []
         for i in range(len(input_text)):
@@ -39,23 +40,46 @@ class NeuralMatrix:
                         z = working_token_list.pop(i+1)
                         working_token_list[i] = new_token
                 highest_key.remove(key)
-        print(final_token_vocabulary)
-        return final_token_vocabulary
+        #print(final_token_vocabulary)
+        return final_token_vocabulary, working_token_list
 
 
-    t = open("alice.txt") #input
-    x = 500 #output array length
-    y = create_token_vocabulary(t.read().replace('\ufeff', ''), x)
-    t.close()
+    def tokenize(self, file, count):
 
-    #clears the results file
-    r = open("results.txt", "w")
-    r.write('')
-    r.close()
+        t = open(file, encoding="utf-8") #input
+        y, x = self.create_token_vocabulary(t.read().replace('\ufeff', ''), count)
+        t.close()
+        print(x)
 
-    r = open('results.txt', "a")
-    for i in y:
-        r.write(i)
-        if not y.index(i) == len(y) - 1:
-            r.write("\n")
-    r.close()
+        #clears the token vocabulary file
+        r = open("tokens.txt", "w", encoding="utf-8")
+        r.write('')
+        r.close()
+
+        r = open('tokens.txt', "a", encoding="utf-8")
+        for i in y:
+            r.write(i)
+            if not y.index(i) == len(y) - 1:
+                r.write("\n")
+        r.close()
+
+        #clears the tokenized text file
+        r = open("tokenized_text.txt", "w", encoding="utf-8")
+        r.write('')
+        r.close()
+
+        #writing the final tokenized text
+        r = open('tokenized_text.txt', "a", encoding="utf-8")
+        for i in x:
+            r.write(i)
+            if not y.index(i) == len(y) - 1:
+                r.write("\n")
+        r.close()
+
+    def embed_tokens(self):
+        return
+
+#"main" code
+trainer = Trainer()
+#trainer.tokenize("alice.txt", 500)
+
