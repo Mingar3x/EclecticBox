@@ -105,11 +105,13 @@ class Trainer:
         embedded_token_vectors = {} #not normalized yet btw that comes later
         #matches token (string) to an array containing the number of times each 
         #other token has appeared before it, wieghted by distance down context window.
-        for i in range(len(tokens)-1):
-            embedded_token_vectors[tokens[i]]= [0 for i in range(len(tokens)-1)]
-        for i in range(len(preceding_token_counts)-1):
-            for j in range(len(preceding_token_counts[i])-1):
-                embedded_token_vectors[i][j]=embedded_token_vectors[i][j]+(1/(j+1))
+        for i in range(len(tokens)):
+            embedded_token_vectors[tokens[i]]= [0 for i in range(len(tokens))]
+        for i in range(len(tokens)):
+            if tokens[i] in preceding_token_counts:
+                for j in range(len(preceding_token_counts[tokens[i]])):
+
+                    embedded_token_vectors[tokens[i]][i]=embedded_token_vectors[tokens[i]][i]+(1/(j+1))
 
         #writing the embedding table to a json file
         with open('embedded_token_vectors.json', 'w', encoding="utf-8") as f:
@@ -119,6 +121,6 @@ class Trainer:
 
 #"main" code
 trainer = Trainer()
-#trainer.embed_tokens("tokenized_text.txt", "tokens.txt")
-#trainer.tokenize("alice.txt", 500)
+trainer.embed_tokens("tokenized_text.txt", "tokens.txt")
+#trainer.tokenize("alice.txt", 300)
 
