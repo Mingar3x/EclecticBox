@@ -111,8 +111,8 @@ class Trainer:
             if tokens[i] in preceding_token_counts:
                 for j in range(len(preceding_token_counts[tokens[i]])):
 
-                    embedded_token_vectors[tokens[i]][i]=embedded_token_vectors[tokens[i]][i]+(1/(j+1))
-
+                    embedded_token_vectors[tokens[i]][tokens.index(preceding_token_counts[i][j])]=embedded_token_vectors[tokens[i]][i]+(1/(j+1))
+                    
         #writing the embedding table to a json file
         with open('embedded_token_vectors.json', 'w', encoding="utf-8") as f:
             json.dump(embedded_token_vectors, f, ensure_ascii=False, indent=4)
