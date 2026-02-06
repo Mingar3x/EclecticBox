@@ -40,10 +40,22 @@ class NeuralMatrix:
                         working_token_list[i] = new_token
                 highest_key.remove(key)
         print(final_token_vocabulary)
-        #print(working_token_list)
+        return final_token_vocabulary
 
 
-    t = open("alice.txt").read() #input
+    t = open("alice.txt") #input
     x = 500 #output array length
-    create_token_vocabulary(t, x)
-        
+    y = create_token_vocabulary(t.read().replace('\ufeff', ''), x)
+    t.close()
+
+    #clears the results file
+    r = open("results.txt", "w")
+    r.write('')
+    r.close()
+
+    r = open('results.txt', "a")
+    for i in y:
+        r.write(i)
+        if not y.index(i) == len(y) - 1:
+            r.write("\n")
+    r.close()
