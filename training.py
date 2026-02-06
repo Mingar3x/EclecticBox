@@ -77,40 +77,48 @@ class Trainer:
                 r.write("\n")
         r.close()
 
-    def embed_tokens(self, tokenized_text, tokens):
+    def embed_tokens(self, tokenized_text_file, tokens_file):
         context_window = 20
         #writing files to arrays for easy operations
-        r = open(tokenized_text, encoding="utf-8")
-        t = open(tokens, encoding="utf-8")
-        text_list, token_list = [], []
+        r = open(tokenized_text_file, encoding="utf-8")
+        t = open(tokens_file, encoding="utf-8")
+        tokenized_text, tokens = [], []
         for i in r:
-            text_list.append(i.replace('\n', ''))
+            tokenized_text.append(i.replace('\n', ''))
         for i in t:
-            token_list.append(i.replace('\n', ''))
+            tokens.append(i.replace('\n', ''))
         r.close()
         t.close()
-        #embedding each token to a vector based off the previous tokens in text_list
-        embedded_token_vectors = {3:("hey",2,3), 4:(4,5,6), 5:(7,8,9)}
+        #saving the tokens preceding each token within a set context window
+        
         preceding_token_counts = {}
-        for i in range(len(text_list)-1):
-            token = text_list[i]
+        for i in range(len(tokenized_text)-1):
+            token = tokenized_text[i]
             previous_tokens = []
             for j in range(context_window):
                 if i-j>=0 and not i-j==i:
-                    previous_tokens.append(text_list[i-j])
+                    previous_tokens.append(tokenized_text[i-j])
             if token not in preceding_token_counts:
                 preceding_token_counts[token] = []
             preceding_token_counts[token].append(previous_tokens)
-            
+        
+        embedded_token_vectors = {} #not normalized yet btw that comes later
+        #matches token (string) to an array containing the number of times each 
+        #other token has appeared before it, wieghted by distance down context window.
+        for i in range(len(tokens)-1):
+            embedded_token_vectors[tokens[i]]= [0 for i in range(len(tokens)-1)]
+        for i in range(len(preceding_token_counts)-1):
+            for j in range(len(preceding_token_counts[i])-1):
+                embedded_token_vectors[i][j]=embedded_token_vectors[i][j]+(1/(j+1))
 
         #writing the embedding table to a json file
         with open('embedded_token_vectors.json', 'w', encoding="utf-8") as f:
-            json.dump(preceding_token_counts, f, ensure_ascii=False, indent=4)
+            json.dump(embedded_token_vectors, f, ensure_ascii=False, indent=4)
 
         
 
 #"main" code
 trainer = Trainer()
-trainer.embed_tokens("tokenized_text.txt", "tokens.txt")
+#trainer.embed_tokens("tokenized_text.txt", "tokens.txt")
 #trainer.tokenize("alice.txt", 500)
 
