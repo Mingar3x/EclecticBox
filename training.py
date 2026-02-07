@@ -78,7 +78,7 @@ class Trainer:
         r.close()
 
     def embed_tokens(self, tokenized_text_file, tokens_file):
-        context_window = 20
+        context_window = 100
         #writing files to arrays for easy operations
         r = open(tokenized_text_file, encoding="utf-8")
         t = open(tokens_file, encoding="utf-8")
@@ -130,13 +130,14 @@ class Trainer:
 
         #writing the embedding table to a json file
         with open('embedded_token_vectors.json', 'w', encoding="utf-8") as f:
+            f.write('') #idk if this does anything but it feels good to have
             json.dump(embedded_token_vectors, f, ensure_ascii=False, indent=4)
 
         
 
 #"main" code
 trainer = Trainer()
-#trainer.tokenize("alice.txt", 300)
+trainer.tokenize("alice.txt", 1000)
 trainer.embed_tokens("tokenized_text.txt", "tokens.txt")
 
 
