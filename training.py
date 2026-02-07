@@ -112,7 +112,22 @@ class Trainer:
                 for j in range(len(preceding_token_counts[tokens[i]])):
                     for k in range(len(preceding_token_counts[tokens[i]][j])):
                         embedded_token_vectors[tokens[i]][tokens.index(preceding_token_counts[tokens[i]][j][k])]=embedded_token_vectors[tokens[i]][tokens.index(preceding_token_counts[tokens[i]][j][k])]+(1/(k+1))
-                    
+        
+        for i in embedded_token_vectors.keys(): #normalization
+            normalized_values = []
+            highest_value = -1
+            for j in embedded_token_vectors[i]:
+                if j>highest_value:
+                    highest_value = j
+            for j in embedded_token_vectors[i]:
+                if not highest_value == 0:
+                    normalized_values.append(j/highest_value)
+                else:
+                    normalized_values.append(0)
+                    #print(j/highest_value)
+            embedded_token_vectors[i] = normalized_values
+            print(embedded_token_vectors[i])
+
         #writing the embedding table to a json file
         with open('embedded_token_vectors.json', 'w', encoding="utf-8") as f:
             json.dump(embedded_token_vectors, f, ensure_ascii=False, indent=4)
@@ -121,7 +136,7 @@ class Trainer:
 
 #"main" code
 trainer = Trainer()
-trainer.tokenize("alice.txt", 300)
+#trainer.tokenize("alice.txt", 300)
 trainer.embed_tokens("tokenized_text.txt", "tokens.txt")
 
 
