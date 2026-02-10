@@ -50,14 +50,36 @@ class Writer:
         if magnitude_vec1 == 0 or magnitude_vec2 == 0:
             return 0
         return dot_product / (magnitude_vec1 * magnitude_vec2)
+    def tokenize_string(self, text):
+        vocabulary = []
+        v = open("tokens.txt", encoding="utf-8")
+        for i in v:
+            vocabulary.append(i.replace('\n', ''))
 
+        sorted_vocab = sorted(vocabulary, key=len, reverse=True)
+        tokens = []
+        i = 0
+        while i < len(text):
+            matched = False
+            for token in sorted_vocab:
+                if text[i:i+len(token)] == token:
+                    tokens.append(token)
+                    i += len(token)
+                    matched = True
+                    break
+            if not matched:
+                tokens.append(text[i])
+                i += 1
+        print(tokens)
+        return tokens
 
 writer = Writer()
-x = "a"
-previous_tokens = [x]
+x = "Alice ate a sugarplum"
+previous_tokens = writer.tokenize_string(x)
 writer.initalize("tokens.txt")
 while True:
-    print(previous_tokens[len(previous_tokens)-1], end="", flush=True)
+    #print(previous_tokens[len(previous_tokens)-1], end="", flush=True)
+    print(x, end="", flush=True)
     x = writer.find_match(previous_tokens)
     previous_tokens.append(x)
-    time.sleep(0.1)
+    #time.sleep(0.1)
