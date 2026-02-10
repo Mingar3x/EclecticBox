@@ -45,12 +45,13 @@ class Trainer:
         return final_token_vocabulary, working_token_list
 
 
-    def tokenize(self, file, count):
-
-        t = open(file, encoding="utf-8") #input
-        y, x = self.create_token_vocabulary(t.read().replace('\ufeff', ''), count)
-        t.close()
-        #print(x)
+    def tokenize(self, files, count):
+        t =""
+        for file in files:
+            z = open(file, encoding="utf-8") #input
+            t = t + z.read().replace('\ufeff', '')
+            z.close()
+        y, x = self.create_token_vocabulary(t, count)
 
         #clears the token vocabulary file
         r = open("tokens.txt", "w", encoding="utf-8")
@@ -77,8 +78,7 @@ class Trainer:
                 r.write("\n")
         r.close()
 
-    def embed_tokens(self, tokenized_text_file, tokens_file):
-        context_window = 100
+    def embed_tokens(self, tokenized_text_file, tokens_file, context_window):
         #writing files to arrays for easy operations
         r = open(tokenized_text_file, encoding="utf-8")
         t = open(tokens_file, encoding="utf-8")
@@ -126,7 +126,7 @@ class Trainer:
                     normalized_values.append(0)
                     #print(j/highest_value)
             embedded_token_vectors[i] = normalized_values
-            print(embedded_token_vectors[i])
+            #print(embedded_token_vectors[i])
 
         #writing the embedding table to a json file
         with open('embedded_token_vectors.json', 'w', encoding="utf-8") as f:
@@ -137,7 +137,8 @@ class Trainer:
 
 #"main" code
 trainer = Trainer()
-trainer.tokenize("alice.txt", 1000)
-trainer.embed_tokens("tokenized_text.txt", "tokens.txt")
+trainer.tokenize(["alice.txt", "prideprejustice.txt"], 1000)
+print("done_tokenizing :D")
+trainer.embed_tokens("tokenized_text.txt", "tokens.txt", 200)
 
 
