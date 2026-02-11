@@ -5,21 +5,20 @@ import time
 class Writer:
 
     tokens = []
-
+    embedded_token_vectors = {}
     def initalize(self,tokens_file): #writes tokens from txt file once at the start
         t = open(tokens_file, encoding="utf-8")
         for i in t:
             self.tokens.append(i.replace('\n', ''))
         t.close()
-
-    def find_match(self, context):
         r = open('embedded_token_vectors.json', encoding="utf-8")
-        embedded_token_vectors = json.load(r)
+        self.embedded_token_vectors = json.load(r)
         r.close()
-
+    def find_match(self, context):
+        
         context_vector = [0 for i in range(len(self.tokens))]
         for i in range(len(context)):
-            context_vector[self.tokens.index(list(reversed(context))[i])] += 1/((i+1))
+            context_vector[self.tokens.index(list(reversed(context))[i])] += 1/((i+1)**1.2)
 
         #normalization
         normalized_values = []
@@ -37,7 +36,7 @@ class Writer:
 
         best_match = None
         best_similarity = -1
-        for token, vector in embedded_token_vectors.items():
+        for token, vector in self.embedded_token_vectors.items():
             similarity = self.cosine_similarity(context_vector, vector) * (random.randrange(80,120,1)/100)
             if similarity > best_similarity and not token == context[len(context)-1]:
                 best_similarity = similarity
@@ -74,7 +73,7 @@ class Writer:
         return tokens
 
 writer = Writer()
-x = "3 plus 3 is "
+x = "And then, before my eyes, the "
 previous_tokens = writer.tokenize_string(x)
 writer.initalize("tokens.txt")
 while True:
