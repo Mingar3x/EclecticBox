@@ -19,7 +19,7 @@ class Writer:
 
         context_vector = [0 for i in range(len(self.tokens))]
         for i in range(len(context)):
-            context_vector[self.tokens.index(list(reversed(context))[i])] += 1/((i+1)**2)
+            context_vector[self.tokens.index(list(reversed(context))[i])] += 1/((i+1))
 
         #normalization
         normalized_values = []
@@ -38,7 +38,7 @@ class Writer:
         best_match = None
         best_similarity = -1
         for token, vector in embedded_token_vectors.items():
-            similarity = self.cosine_similarity(context_vector, vector)
+            similarity = self.cosine_similarity(context_vector, vector) * (random.randrange(80,120,1)/100)
             if similarity > best_similarity and not token == context[len(context)-1]:
                 best_similarity = similarity
                 best_match = token
@@ -74,12 +74,10 @@ class Writer:
         return tokens
 
 writer = Writer()
-x = "Alice ate a sugarplum"
+x = "3 plus 3 is "
 previous_tokens = writer.tokenize_string(x)
 writer.initalize("tokens.txt")
 while True:
-    #print(previous_tokens[len(previous_tokens)-1], end="", flush=True)
     print(x, end="", flush=True)
     x = writer.find_match(previous_tokens)
     previous_tokens.append(x)
-    #time.sleep(0.1)

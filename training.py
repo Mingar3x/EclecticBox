@@ -112,7 +112,8 @@ class Trainer:
                 for j in range(len(preceding_token_counts[tokens[i]])):
                     for k in range(len(preceding_token_counts[tokens[i]][j])):
                         embedded_token_vectors[tokens[i]][tokens.index(preceding_token_counts[tokens[i]][j][k])]=embedded_token_vectors[tokens[i]][tokens.index(preceding_token_counts[tokens[i]][j][k])]+(1/(k+1))
-        
+            print("embedded: "+ tokens[i]+ " , " + str(round(i/(len(tokens)-1)*100, 2))+ "% done")
+        print("normalizing begun")
         for i in embedded_token_vectors.keys(): #normalization
             normalized_values = []
             highest_value = -1
@@ -132,13 +133,13 @@ class Trainer:
         with open('embedded_token_vectors.json', 'w', encoding="utf-8") as f:
             f.write('') #idk if this does anything but it feels good to have
             json.dump(embedded_token_vectors, f, ensure_ascii=False, indent=4)
-
+        print("done embedding!!")
         
 
 #"main" code
 trainer = Trainer()
-trainer.tokenize(["alice.txt", "prideprejustice.txt"], 1000)
+#trainer.tokenize(["alice.txt", "prideprejustice.txt", "mobydick.txt"], 2000)
 print("done_tokenizing :D")
-trainer.embed_tokens("tokenized_text.txt", "tokens.txt", 200)
+trainer.embed_tokens("tokenized_text.txt", "tokens.txt", 150)
 
 
