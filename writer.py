@@ -20,7 +20,7 @@ class Writer:
         for i in range(len(context)):
             context_vector[self.tokens.index(list(reversed(context))[i])] += 1/((i+1)**1.2)
 
-        #normalization
+        #normalx1ization
         normalized_values = []
         highest_value = -1
         for j in context_vector:
@@ -73,7 +73,7 @@ class Writer:
         return tokens
 
 writer = Writer()
-x = "And then, before my eyes, the "
+x = "Henry Cunningham is "
 previous_tokens = writer.tokenize_string(x)
 writer.initalize("tokens.txt")
 while True:
